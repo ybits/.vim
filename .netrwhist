@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/ryan'
+let g:netrw_dirhist_2='/Users/ryan/Documents'
+let g:netrw_dirhist_3='/Users/ryan'
+let g:netrw_dirhist_4='/Users/ryan/Perl'
+let g:netrw_dirhist_5='/Users/ryan/Resume'
+let g:netrw_dirhist_6='/Users/ryan/projects/wxplorer'
+let g:netrw_dirhist_7='/Users/ryan/projects/wxplorer/js'
+let g:netrw_dirhist_8='/Users/ryan/projects/16days'

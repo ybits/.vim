@@ -1,21 +1,20 @@
 set ts=2
-set sw=4
+set sw=2
 syntax on
 set number
 
-" Key mappings in INSERT mode
-" Tired of lifting hand to hit ESC or having ctrl-[
-imap ;; <Esc>
-
-nmap gt :TlistOpen <CR>
-nmap gc :TlistClose <CR>
+nmap g; :TlistOpen <CR>
+nmap gl :TlistClose <CR>
 let Tlist_Sort_Type = "name"
 
-nmap gn :NERDTree <CR>
-nmap gc :NERDTreeClose <CR>
-nmap gf :NERDTreeFind <CR>
+nmap gf :NERDTreeToggle<CR>
+nmap ga :NERDTreeFind<CR>
+nmap gb :ls <CR>
 
 nmap gw :w <CR>
+nmap gq :q <CR>
+nmap gh :wq <CR>
+nmap gn :set nonumber! <CR>
 
 " Run Ruby unit tests with gT (for all) or gt (only test under
 " cursor) in command mode
