@@ -1,7 +1,8 @@
 snippet php
 	<?php
 	${1}
-	?>
+snippet phpi
+	<?php ${1} ?>
 snippet ec
 	echo "${1:string}"${2};
 snippet inc
@@ -214,3 +215,6 @@ snippet fun
 # $... = array (...)
 snippet array
 	$${1:arrayName} = array('${2}' => ${3});${4}
+# Zend Framework
+snippet zfdb
+	Zend_Debug::dump(${1:value});${2}
