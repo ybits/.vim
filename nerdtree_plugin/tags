@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+NERDTreeAddNode	fs_menu.vim	/^function! NERDTreeAddNode()$/;"	f
+NERDTreeCopyNode	fs_menu.vim	/^function! NERDTreeCopyNode()$/;"	f
+NERDTreeDeleteNode	fs_menu.vim	/^function! NERDTreeDeleteNode()$/;"	f
+NERDTreeExecFile	exec_menuitem.vim	/^function! NERDTreeExecFile()$/;"	f
+NERDTreeExecFileActive	exec_menuitem.vim	/^function! NERDTreeExecFileActive()$/;"	f
+NERDTreeMoveNode	fs_menu.vim	/^function! NERDTreeMoveNode()$/;"	f
+echo	fs_menu.vim	/^function! s:echo(msg)$/;"	f
+echoWarning	fs_menu.vim	/^function! s:echoWarning(msg)$/;"	f
+g:loaded_nerdtree_exec_menuitem	exec_menuitem.vim	/^let g:loaded_nerdtree_exec_menuitem = 1$/;"	v
+g:loaded_nerdtree_fs_menu	fs_menu.vim	/^let g:loaded_nerdtree_fs_menu = 1$/;"	v
+promptToDelBuffer	fs_menu.vim	/^function! s:promptToDelBuffer(bufnum, msg)$/;"	f

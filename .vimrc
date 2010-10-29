@@ -6,15 +6,15 @@ set number
 nmap g; :TlistOpen <CR>
 nmap gl :TlistClose <CR>
 let Tlist_Sort_Type = "name"
+let Tlist_Use_Right_Window = 1
 
-nmap gf :NERDTreeToggle<CR>
-nmap ga :NERDTreeFind<CR>
-nmap gb :ls <CR>
-
+nmap gd :NERDTreeToggle<CR>
+nmap gs :NERDTreeFind<CR>
 nmap gw :w <CR>
 nmap gq :q <CR>
 nmap gh :wq <CR>
 nmap gn :set nonumber! <CR>
+nmap gb <leader>be
 
 " Run Ruby unit tests with gT (for all) or gt (only test under
 " cursor) in command mode
