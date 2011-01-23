@@ -16,6 +16,9 @@ nmap gh :wq <CR>
 nmap gn :set nonumber! <CR>
 nmap gb <leader>be
 
+" Set encryption to blowfish
+set cryptmethod=blowfish
+
 " Run Ruby unit tests with gT (for all) or gt (only test under
 " cursor) in command mode
 augroup RubyTests
