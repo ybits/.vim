@@ -15,6 +15,10 @@ nmap gq :q <CR>
 nmap gh :wq <CR>
 nmap gn :set nonumber! <CR>
 nmap gb <leader>be
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-H> <C-W>h
+map <C-L> <C-W>l
 
 " Set encryption to blowfish
 set cryptmethod=blowfish
