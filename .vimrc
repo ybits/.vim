@@ -25,11 +25,11 @@ set cryptmethod=blowfish
 
 " Run Ruby unit tests with gT (for all) or gt (only test under
 " cursor) in command mode
-augroup RubyTests
-  au!
-  autocmd BufRead,BufNewFile *_test.rb,test_*.rb
-    \ :nmap gt V:<C-U>!$HOME/.vim/bin/ruby-run-focused-unit-test 
-    \ % <C-R>=line("'<")<CR>p <CR>|
-    \ :nmap gT :<C-U>!ruby %<CR>
-augroup END
+"augroup RubyTests
+"  au!
+"  autocmd BufRead,BufNewFile *_test.rb,test_*.rb
+"    \ :nmap gt V:<C-U>!$HOME/.vim/bin/ruby-run-focused-unit-test 
+"    \ % <C-R>=line("'<")<CR>p <CR>|
+"    \ :nmap gT :<C-U>!ruby %<CR>
+"augroup END
 
